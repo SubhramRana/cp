@@ -18,3 +18,5 @@ ll getSumUpto(ll r){
 void constructBIT(){
 	bit.resize(n+1,0);
 }
+
+//youtube tutorial-> https://www.youtube.com/watch?v=DPiY9wFxGIw
