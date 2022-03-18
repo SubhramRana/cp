@@ -20,3 +20,4 @@ void constructBIT(){
 }
 
 //youtube tutorial-> https://www.youtube.com/watch?v=DPiY9wFxGIw
+// segment tree VS BIT --> https://stackoverflow.com/questions/64190332/fenwick-tree-vs-segment-tree
