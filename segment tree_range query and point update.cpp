@@ -24,8 +24,8 @@ ll buildUtils(ll ss,ll se, ll si){
 }
 
 void buildSegmentTree(){
-	ll h= ceil(log2(n));
-	ll treeSize=(1<<(h+1))-1;
+	ll treeHeight= ceil(log2(n))+1;
+	ll treeSize=(1<<(treeHeight))-1;
 	st.resize(treeSize,0);
 	buildUtils(0,n-1,0);
 }
