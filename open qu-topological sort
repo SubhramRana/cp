@@ -1,4 +1,12 @@
+topological order definition:
+ --> Let ORD[] is the topological ordering of a graph. consider there are two indices 'i' and 'j' in ORD[] where i < j . Then,you can never reach
+     node 'ORD[i]' from node 'ORD[j]' for any value of 'i' which is < 'j'.
+     
+
 1. Calculate the total number of topological sortings in a DAG
 2. Topological sort exists only in case of a DAG
 3. Gievn a DAG, and a sequence. verrify whether it is a topological order or not
+  ans: let ORD[] is a topoligical order array. If you are at some index 'i' and ORD[i]=v, then at that time, VISITED[j] = true for all j<i.Based on the
+       above 'toppological order definition', now check for all child node of 'v' whether it is already visited. If yes, then it is not a valid
+       topological ordering.
 4. 
