@@ -1,0 +1,4 @@
+1. Calculate the total number of topological sortings in a DAG
+2. Topological sort exists only in case of a DAG
+3. Gievn a DAG, and a sequence. verrify whether it is a topological order or not
+4. 
